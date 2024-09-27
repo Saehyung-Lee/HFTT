@@ -12,6 +12,32 @@ Task embeddings define the task to be performed. For example, in the case of hat
 
 
 ## Evaluation
+1. Visit this [link](https://github.com/deeplearning-wisc/large_scale_ood) to prepare the inaturalist, sun397, places, and dtd datsets.
+2. Download the NINCO dataset [here](https://zenodo.org/record/8013288/files/NINCO_all.tar.gz?download=1)
+```
+   OOD  
+    ├── inaturalist                    
+    │    └── images          
+    │          ├── 000309dd0c724a5104df8e716b9008a0.jpg
+    │          └── ...                
+    ├── sun397                    
+    │    └── images          
+    │          ├── sun_aaaevyiuguntlerb.jpg
+    │          └── ...
+    ├── places                    
+    │    └── images          
+    │          ├── b_badlands_00000038.jpg
+    │          └── ...
+    ├── dtd                    
+    │    └── images          
+    │          ├── banded_0002.jpg
+    │          └── ...
+    └── NINCO                    
+         └── NINCO_OOD_classes          
+               └── images
+                     ├── amphiuma_means_000_10045958.jpeg
+                     └── ...   
+```
 
 ### MCM
 ```python
