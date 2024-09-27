@@ -6,7 +6,7 @@ Our code is based on
 2. [CLIP](https://github.com/openai/CLIP)
 3. [List Of English Words](https://github.com/dwyl/english-words)
 
-## Overview of our proposed method.
+## Overview of our proposed method
 Task embeddings define the task to be performed. For example, in the case of hateful image detection, hate speeches would serve as task embeddings, while in OOD detection, the names of classes from the training distribution would be the task embeddings. Trainable embeddings are the only parameters that are trained in our method, defined in the joint embedding space. During the training phase, only textual data are used, and in the testing phase, these trained parameters are employed to classify images.
 
 ![framework](./image/framework.png)
