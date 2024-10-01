@@ -1,6 +1,6 @@
 # [NeurIPS 2024] Textual Training for the Hassle-Free Removal of Unwanted Visual Data
 
-This repository is the official implementation of [Textual Training for the Hassle-Free Removal of Unwanted Visual Data](https://arxiv.org/abs/2409.00000), published at NeurIPS 2024.
+This repository is the official implementation of [Textual Training for the Hassle-Free Removal of Unwanted Visual Data](https://arxiv.org/abs/2409.19840), published at NeurIPS 2024.
 Our code is based on
 1. [PyTorch image classification reference](https://github.com/pytorch/vision/tree/main/references/classification)
 2. [CLIP](https://github.com/openai/CLIP)
